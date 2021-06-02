@@ -1,0 +1,25 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 20px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+.title {
+  background: #003049;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.title h2 {
+  margin: 0px 0px;
+}
+.tabs b {
+  margin-left: 10px;
+}
+.tabs b:hover {
+  color: #ef233c;
+  cursor: pointer;
+  transition: 150ms;
+}
