@@ -1,0 +1,8 @@
+.Location {
+  height: 100px;
+  width: 95%;
+  margin: 10px 0px;
+  border: 1px grey solid;
+  border-radius: 10px;
+  padding: 10px;
+}

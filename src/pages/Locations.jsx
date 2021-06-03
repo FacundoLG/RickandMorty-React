@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react';
-import Card from '../components/Card'
+import LocationCard from '../components/LocationCard';
+import '../assets/pages/Locations.css'
 const Locations = () => {
     const [locations,getLocations] = useState([])
     
@@ -13,11 +14,11 @@ const Locations = () => {
     },[])
     return ( 
         <div>
-            <div className="cardContainer">
-            {locations.map((character)=>
-                <Card key={character.id} imgSrc={character.image} name={character.name}/>
+            <div className="LocationContainer">
+            {locations.map((location)=>
+                <LocationCard key={location.id} imgSrc={location.image} name={location.name}/>
             )}
-        </div>
+            </div>
         </div>
      );
 }
