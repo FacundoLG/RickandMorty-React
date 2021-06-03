@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import '../assets/components/Header.css'
 const Header = () => {
     return ( 
@@ -8,8 +9,8 @@ const Header = () => {
             </div>
             <div className="tabs">
                 <b>o</b>
-                <b>Characters</b>
-                <b>Planets</b>
+                <Link className="link" to="/characters">Characters</Link>
+                <Link className="link" to="/locations">Location</Link>
             </div>
         </div>
      );

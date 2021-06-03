@@ -15,10 +15,14 @@
 .title h2 {
   margin: 0px 0px;
 }
-.tabs b {
+
+.link {
   margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
-.tabs b:hover {
+.tabs .link:hover {
   color: #ef233c;
   cursor: pointer;
   transition: 150ms;
