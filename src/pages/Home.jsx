@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import ThemeContext from '../context/ThemeContext'
 import '../assets/Theme/darkTheme.css'
+import '../assets/pages/Home.css'
 const Home = () => {
     var theme = useContext(ThemeContext)
     return ( 

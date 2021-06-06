@@ -21,6 +21,7 @@ const Routes = () => {
                 <Header setDark={changeTheme}/>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/characters" component={Characters}/>
+                <Route path="/characters/:name" component={Characters}/>
                 <Route exact path="/locations" component={Locations}/>
             </BrowserRouter>
           </ThemeContext.Provider>

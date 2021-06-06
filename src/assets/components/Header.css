@@ -22,8 +22,10 @@
 }
 .inputContainer {
   display: flex;
+  margin: 0px 5px;
   justify-content: space-between;
   width: 50%;
+  max-width: 500px;
   background: #fff;
   height: 30px;
   border-radius: 5px;
@@ -31,7 +33,7 @@
 }
 .input {
   display: flex;
-  width: 80%;
+  width: 90%;
   background: none;
   border: none;
   outline: none;
@@ -42,6 +44,7 @@
   align-items: center;
   border: none;
   width: 20%;
+  max-width: 40px;
   background: none;
   border-left: solid 1px rgb(196, 196, 196);
 }
@@ -53,7 +56,7 @@
   align-items: center;
 }
 .link {
-  margin-left: 15px;
+  margin-left: 10px;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -63,6 +66,9 @@
   align-items: center;
   font-size: 20px;
   transition: 300ms;
+}
+.icon:hover {
+  cursor: pointer;
 }
 .link:hover {
   color: #e63946;
