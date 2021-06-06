@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../assets/components/LocationCard.css'
+import '../assets/Theme/darkTheme.css'
+import ThemeContext from '../context/ThemeContext';
 const LocationCard = ({imgSrc,name}) => {
+    var theme = useContext(ThemeContext)
     return ( 
-        <div className="Location">
+        <div className={theme ? "Location dark" : "Location"}>
             <div className="imgContainer">
                 <img className="img"src={imgSrc} alt="" />
             </div>

@@ -2,7 +2,7 @@
   width: 200px;
   margin: 5px;
   border: 1px grey solid;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .cardData {
   display: flex;

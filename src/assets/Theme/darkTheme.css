@@ -1,0 +1,13 @@
+.dark {
+  background: rgb(21, 21, 21);
+  color: white !important;
+  transition: 200ms;
+}
+.iconDark {
+  cursor: pointer;
+  transform: rotate(360deg);
+  color: white;
+  background: white;
+  border-radius: 10px;
+  transition: 400ms;
+}
